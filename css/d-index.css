@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	section.slide>div:nth-of-type(2) {max-width: 100%}
+
+	dl.items>dd {margin-bottom: 1rem}
+	dl.items>dd div.prodInfo>h4 {
+	    font-size: 1rem;
+	    font-weight: 300;
+	}
+	dl.items>dd div.prodInfo>div.price>p>span:nth-of-type(2) {font-size: 1rem}
+
+	dl.items>dd>figure>figcaption {padding: .5rem}
+	dl.items>dd>figure>figcaption>div>h4 {
+		font-size: 1.15rem;
+		text-align: right;
+		margin-bottom: 0
+	}
+	dl.items>dd>figure>figcaption>div>p {
+		background: rgba(255, 255, 255, .5);
+		font-size: .75rem;
+		text-align: right;
+		padding-left: .25rem;
+	}
+	.nav-tabs .nav-link {
+		font-size: .85rem;
+		margin-bottom: .5rem;
+	}
+
+	div.events {
+		text-align: center;
+		padding-left: 1rem;
+	}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	section.slide>div:nth-of-type(2) {max-width: 100%}
+	dl.items>dd {margin-bottom: 1rem}
+	dl.items>dd div.prodInfo>h4 {
+	    font-size: 1rem;
+	    font-weight: 300;
+	}
+	dl.items>dd div.prodInfo>div.price>p>span:nth-of-type(2) {font-size: 1rem}
+
+	dl.items>dd>figure>figcaption {padding: .5rem}
+	dl.items>dd>figure>figcaption>div>h4 {
+		font-size: 1.15rem;
+		text-align: right;
+		margin-bottom: 0
+	}
+	dl.items>dd>figure>figcaption>div>p {
+		background: rgba(255, 255, 255, .5);
+		font-size: .75rem;
+		text-align: right;
+		padding-left: .25rem;
+	}
+	.nav-tabs .nav-link {margin-bottom: .5rem;}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	section.slide>div:nth-of-type(2) {max-width: 100%}
+	dl.items>dd {margin-bottom: 1rem}
+	dl.items>dd div.prodInfo>h4 {
+	    font-size: 1rem;
+	    font-weight: 300;
+	}
+	dl.items>dd div.prodInfo>div.price>p>span:nth-of-type(2) {font-size: 1rem}
+
+	dl.items>dd>figure>figcaption {padding: .5rem}
+	dl.items>dd>figure>figcaption>div>h4 {
+		font-size: 1.15rem;
+		text-align: right;
+		margin-bottom: 0
+	}
+	dl.items>dd>figure>figcaption>div>p {
+		background: rgba(255, 255, 255, .5);
+		font-size: .75rem;
+		text-align: right;
+		padding-left: .25rem;
+	}
+	.nav-tabs .nav-link {margin-bottom: .5rem;}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/*iPhone 4S*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+	dl.items>dd>figure>figcaption {padding: .25rem .5rem}
+}
+
+/*iPhone 5 & 5S*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+}
+
+/*iPhone 6, 7, & 8*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+}
+
+/*iPhone 6, 7, & 8 Plus*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+}
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+}
+
+/*iPhone X*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+}
+
+/*Retina iPad*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
